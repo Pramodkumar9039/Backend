@@ -8,9 +8,12 @@
   ],
   "license": "ISC",
   "author": "\"Pramodkumar\"",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
