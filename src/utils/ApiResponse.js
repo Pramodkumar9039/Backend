@@ -1,3 +1,7 @@
+/**
+ * ApiResponse class for standardized API responses
+ * Handles consistent response formatting for all API endpoints
+ */
 class ApiResponse {
     constructor(statusCode , data , message = "Success"){
         this.statusCode = statusCode;
@@ -6,3 +10,5 @@ class ApiResponse {
         this.success = statusCode < 400;
     }
 }
+
+export default ApiResponse;
